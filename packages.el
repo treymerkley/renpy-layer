@@ -69,7 +69,7 @@ Each entry is either:
 (defun renpy/post-init-flycheck ()
   (spacemacs/enable-flycheck 'renpy-mode))
 
-(defun renpy/renpy-mode ()
+(defun renpy/renpy ()
   (use-package renpy
     :defer t))
 ;;; packages.el ends here
