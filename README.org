@@ -20,9 +20,7 @@ This layer adds support for Ren'Py visual novel engine script syntax.
 
 ** Features:
   - Autocomplete
-  - Lint
-  - Refactor
-  - ...
+  - Syntax Highlighting
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
@@ -30,13 +28,4 @@ add =renpy= to the existing =dotspacemacs-configuration-layers= list in this
 file.
 
 * Key bindings
-
-| Key Binding | Description    |
-|-------------+----------------|
-| ~SPC x x x~ | Does thing01   |
-
-# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
-# Examples:
-# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
-# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
-# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
+None currently, please open an issue or a pull request to let me know what you would like.
