@@ -31,7 +31,12 @@
 ;;; Code:
 
 (defconst renpy-packages
-  '()
+  '(
+    company
+    flycheck
+    renpy
+    )
+
   "The list of Lisp packages required by the renpy layer.
 
 Each entry is either:
@@ -59,5 +64,12 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
+(defun renpy/post-init-company ())
 
+(defun renpy/post-init-flycheck ()
+  (spacemacs/enable-flycheck 'renpy-mode))
+
+(defun renpy/renpy-mode ()
+  (use-package renpy
+    :defer t))
 ;;; packages.el ends here
