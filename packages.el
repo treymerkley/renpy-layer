@@ -35,6 +35,7 @@
     company
     flycheck
     renpy
+    smartparens
     )
 
   "The list of Lisp packages required by the renpy layer.
