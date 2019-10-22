@@ -70,6 +70,8 @@ Each entry is either:
 (defun renpy/post-init-flycheck ()
   (spacemacs/enable-flycheck 'renpy-mode))
 
+(defun renpy/post-init-smartparens ())
+
 (defun renpy/init-renpy ()
   (use-package renpy
     :defer t))
