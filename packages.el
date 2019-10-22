@@ -32,10 +32,10 @@
 
 (defconst renpy-packages
   '(
-    company
-    flycheck
+    ;; company
+    ;; flycheck
     renpy
-    smartparens
+    ;; smartparens
     )
 
   "The list of Lisp packages required by the renpy layer.
@@ -65,14 +65,13 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
-(defun renpy/post-init-company ())
+(defun auto-completion/init-company ())
 
-(defun renpy/post-init-flycheck ()
-  (spacemacs/enable-flycheck 'renpy-mode))
+;; (defun syntax-checking/init-flycheck ())
 
-(defun renpy/post-init-smartparens ())
+(defun spacemacs-editing/init-smartparens ())
 
 (defun renpy/init-renpy ()
   (use-package renpy
     :defer t))
-;;; packages.el ends here
+;; packages.el ends here
